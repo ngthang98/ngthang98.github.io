@@ -1,0 +1,23 @@
+p {
+    color: firebrick;
+}
+h1 {
+    color: burlywood;
+}
+img {
+    width: 500px;
+}
+.a {
+    color: darkcyan;
+    font-size: 20px;
+    font-weight: 500;
+    font-size: italic;
+    line-height: 2;
+    text-transform: capitalize;
+}
+ul, ol{
+    list-style-type: circle;
+}
+a{
+    text-decoration: none;
+}
