@@ -1,0 +1,46 @@
+
+.body{
+    color: #333;
+}
+*{
+    margin: 3px;
+    padding: 0px;
+}
+.logo{
+    flex-direction: row;
+}
+.trangbi > div{
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    display: grid;
+    grid-row: 50px;
+    grid-template-columns: 200px 260px 250px;
+    margin: 3px;
+    padding: 0px;
+}
+.trangbi ul{
+    list-style-type: square;
+}
+
+ul{
+    list-style-type: none;
+    text-align:left;
+}
+.trangbi ul li{
+    display:inline-block;
+    
+}
+.menu ul li{
+    background:blue;
+    text-align: center;
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    
+}
+ul li a{
+    color: black;
+    text-decoration: none;
+}
