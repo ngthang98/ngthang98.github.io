@@ -1,0 +1,35 @@
+.content{
+    background-color: whitesmoke; 
+    width: auto;
+    height: auto;
+    top: 10px;
+    border: 2px solid gray;
+    position: absolute;
+    margin-left: 450px;
+}
+table{
+    border: 1px solid gray;
+    border-collapse: collapse;
+    width: 500px;
+    height: 200px;
+}
+thead{
+    text-align: left ;
+    background: red;
+    color: white;
+    font-size: 25px;
+}
+td{
+    border: 1px solid gray;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    height: 40px;
+    width: 100px;
+}
+.tb-main td a{
+    color: red
+}
+tr:nth-child(even){
+    background-color: whitesmoke;
+}
