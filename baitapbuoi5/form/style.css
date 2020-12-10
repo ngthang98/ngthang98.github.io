@@ -1,0 +1,146 @@
+.content{
+    border: 8px;
+    border-radius: 2px solid white;
+}
+.container{
+    width: 400px;
+    height: 270px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 6px;
+    box-shadow: 0 0 2px black;
+}
+.recently{
+    width: 500px;
+    height: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 6px;
+    box-shadow: 0 0 2px black;
+}
+input{
+    display: block;
+    font-size: 17px;
+    line-height: 22px;
+    margin: 6px 0;
+    padding: 14px 16px;
+    border-radius: 8px;
+    border: 1px solid #dddfe2;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+li{
+    list-style-type: none;
+}
+li a{
+    display: inline-block;
+    text-decoration: none;
+}
+.bt-login{
+    background-color: #1877f2 ;
+    color: white;
+    border: 1px solid white;
+    border-radius: 6px;
+    font-size: 20px;   
+    line-height: 50px;
+    width: 280px;
+}
+.bt-signup{
+    background-color: #42B72A;
+    color: white;
+    border: 1px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 50px;
+    width: 220px;
+}
+.button, .button-text{
+    text-align: center;
+}
+.check {
+    background-color: #42b72a;
+    color: rgb(255,255,255);
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+}
+.tittle {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.date, .month, .year {
+    display: inline-block;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 6px 0;
+    padding: 14px 16px;
+    border-radius: 8px;
+    border: 1px solid #dddfe2;
+    width: 32.5%;
+    text-align: left;
+}
+/* .recently {
+    display: none;
+} */
+.test{
+    display: none;
+}
+.test:checked + .recently{
+    display: block;
+}
+.input1 {
+    display: inline-block;
+    font-size: 17px;
+    line-height: 22px;
+    margin: 6px 0;
+    padding: 14px 16px;
+    border-radius: 8px;
+    border: 1px solid #dddfe2;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(240, 240, 234)
+}
+.input2 {
+    display: inline-block;
+    font-size: 17px;
+    line-height: 22px;
+    margin: 6px 0;
+    padding: 14px 16px;
+    border-radius: 8px;
+    border: 1px solid #dddfe2;
+    width: 425px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(240, 240, 234)
+}
+.girl , .boy , .fix{
+    display: inline-block;
+    margin: 6px 0;
+    padding: 5px 7px;
+    border-radius: 6px;
+    border: 1px solid #dddfe2;
+    width: 29%;
+    text-align: left;
+}
+.girll, .boyy, .fixx{
+    display: inline-block;
+    width: 40%;
+}
+.dangky{
+    background-color: #42b72a;
+    color: rgb(255,255,255);
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 300px;
+}
+.close {
+    display: block;
+    text-align: right;
+}
