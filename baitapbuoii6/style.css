@@ -1,0 +1,90 @@
+body{
+    background-color: rgb(66, 65, 65);
+}
+.top-container{
+    position: relative;
+    display: flex;
+    width: 900px;
+}
+.bt{
+    background-color: rgb(66, 65, 65);
+    color: #E4E6EB;
+    border: 1px solid white;
+    border-radius: 6px;
+    font-size: 12px;
+    line-height: 30px;
+    width: 160px;
+}
+ul li{
+    list-style-type: none;  
+}
+a{
+    text-decoration: none;
+    color: #E4E6EB;
+}
+.infor{   
+    border: 2px solid rgb(238, 234, 234);
+    border-radius: 8px;
+    width: 250px;
+    height: 220px;
+}
+.infor2{   
+    border: 2px solid rgb(238, 234, 234);
+    border-radius: 8px;
+    width: 530px;
+    margin-left: 20px;
+    height: auto;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+.i1, .i2, .i3{
+    border: 2px solid rgb(238, 234, 234);
+    border-radius: 8px;
+    width: 525px;
+    height: auto;
+}
+
+
+/*.all-container{
+    /* background-color: turquoise; 
+    position: relative;
+    width: 900px;
+    height: auto;
+    margin: auto;
+}
+ul li {
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: #E4E6EB;
+}
+.mid-container{
+    display: flex;
+    width: 900px;
+    height: auto;
+    margin-left: 200px;
+}
+.sub-infor{   
+    border: 2px solid rgb(238, 234, 234);
+    border-radius: 8px;
+    width: 300px;
+}
+.sub-tab{
+    border: 2px solid rgb(238, 234, 234);
+    border-radius: 8px;
+    width: 300px;
+    margin-left: 20px;
+    height: 110px;
+}
+.bt2{
+    background-color: rgb(66, 65, 65);
+    color: #E4E6EB;
+    border: 1px solid white;
+    border-radius: 6px;
+    font-size: 12px;
+    line-height: 30px;
+    width: auto;
+}
