@@ -1,0 +1,275 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url(https://img3.goodfon.com/wallpaper/nbig/3/5c/avatar-pandora-dzhungli.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.6;
+    font-family: "Quicksand", sans-serif;
+}
+ul,
+
+ol{
+    list-style-type: none;
+    padding: 0;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+    vertical-align: middle;
+    height: auto;
+}
+
+/* Class chung */
+.container{
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.row{
+    display: flex;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+.flex{
+    display: flex;
+}
+.flex-column{
+    flex-direction: column;
+}
+.align-center{
+    align-items: center;
+}
+.align-start{
+    align-items: flex-start;
+}
+.align-end{
+    align-items: flex-end;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-start{
+    justify-content: flex-start;
+}
+.justify-end{
+    justify-content: flex-end;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.col-1 {
+    width: 4.17%;
+}
+
+.col-2 {
+    width: 8.33%;
+}
+
+.col-3 {
+    width: 12.5%;
+}
+
+.col-4 {
+    width: 16.67%;
+}
+
+.col-5 {
+    width: 20.8%;
+}
+
+.col-6 {
+    width: 25%;
+}
+
+.col-7 {
+    width: 29.17%;
+}
+
+.col-8 {
+    width: 33.33%;
+}
+
+.col-9 {
+    width: 37.5%;
+}
+
+.col-10 {
+    width: 41.7%;
+}
+
+.col-11 {
+    width: 45.9%;
+}
+
+.col-12 {
+    width: 50%;
+}
+
+.col-13 {
+    width: 54.17%;
+}
+
+.col-14 {
+    width: 58.33%;
+}
+
+.col-15 {
+    width: 62.5%;
+}
+
+.col-16 {
+    width: 66.67%;
+}
+
+.col-17 {
+    width: 70.8%;
+}
+
+.col-18 {
+    width: 75%;
+}
+
+.col-19 {
+    width: 79.17%;
+}
+
+.col-20 {
+    width: 83.33%;
+}
+
+.col-21 {
+    width: 87.6%;
+}
+
+.col-22 {
+    width: 91.7%;
+}
+
+.col-23 {
+    width: 95.9%;
+}
+
+.col-24 {
+    width: 100%;
+}
+
+[class*="col-"] {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/* Chi tiết */
+body {
+    background-color: #f3f3f3;
+}
+/* .header .container{
+    background-color: #ffffff; 
+} */
+.header .container {
+    padding: 10rem 0;
+    /* background-color: #ffffff; */
+    /* opacity: 1  ; */
+    color: white;
+}
+
+.header {
+    margin-bottom: 2rem;
+    /* background-image: url(https://img3.goodfon.com/wallpaper/nbig/3/5c/avatar-pandora-dzhungli.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; */
+}
+.social-item img {
+    width: 4rem;
+    padding: 0px 5px;
+}
+/* Post */
+.list-item {
+    /* opacity: 1; */
+    /* background-color: white; */
+    margin-bottom: 2rem;
+}
+.post-header {
+    padding: 2rem;
+}
+.post-title {
+    font-weight: 600;
+    font-size: 2rem;
+}
+.post-img img {
+    width: 100%;
+    height: 300px;
+}
+.post-desc {
+    padding: 2rem;
+}
+h2, p{
+    color: white;
+}
+/* Tác giả */
+.author {
+    background-color: none;
+    padding: 1rem;
+    position: sticky;
+    top: 2rem;
+}
+.author-img {
+    width: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+}
+.author-desc {
+    margin-left: 3rem;
+}
+.author-desc .nickname .quote {
+    color: black;
+}
+/* Footer */
+.footer {
+    background-color: #303030;
+}
+.input{
+    background-color: white;
+    display: block;
+    font-size: 17px;
+    line-height: 22px;
+    margin: 6px 0;
+    padding: 2px 0px;
+    border-radius: 9px;
+    border: 1px solid white;
+    width: 180px;
+}
+.bt-signup{
+    background-color: #db215b;
+    color: white;
+    border: 1px solid #303030;
+    border-radius: 6px;
+    font-size: 21px;
+    line-height: 21px;
+    width: 150px;
+}
