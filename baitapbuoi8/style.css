@@ -113,10 +113,10 @@ img {
 .col-4 {
     width: 24.9%;
 }
-[class*="col-"] {
-    /* margin-left: 10px;
-    margin-right: 10px; */
-}
+/* [class*="col-"] {
+    margin-left: 10px;
+    margin-right: 10px;
+} */
 /* Chi tiết */
 /* body {
     background-color: pink;
@@ -129,7 +129,7 @@ img {
 }
 .header {
     /* margin-bottom: 2rem; */
-    background-image: url(http://launchkit.mediumra.re/img/hero10.jpg);
+    background-image: url(https://www.localreachpros.com/wp-content/uploads/2015/03/Blogget-Image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
