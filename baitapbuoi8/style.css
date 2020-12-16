@@ -1,0 +1,215 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    display: block;
+    position: relative;
+    font-size: 14px;
+    line-height: 1.4;   
+    color: #333;
+    background-color: #fff;
+}
+ul, 
+ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+    height: auto;
+    border: 0;
+}
+
+/* Class chung */
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    padding-right: 0;
+    /* background-color: gray; */
+}
+.demo {
+    position: relative;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    padding-right: 0;
+    background-color: white;
+}
+.recently {
+    position: relative;
+    max-width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    padding-right: 0;
+    background-color: white;
+}
+.row {
+    display: flex;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.flex {
+    display: flex;
+}
+.flex-column {
+    flex-direction: column;
+}
+.align-center {
+    align-items: center;
+}
+.align-start {
+    align-items: flex-start;
+}
+.align-end {
+    align-items: flex-end;
+}
+.justify-center {
+    justify-content: center;
+}
+.justify-start {
+    justify-content: flex-start;
+}
+.justify-end {
+    justify-content: flex-end;
+}
+.justify-between {
+    justify-content: space-between;
+} 
+.col-1 {
+    width: 50%;
+    border: 1px solid rgb(238, 237, 237);
+    background-color: whitesmoke;
+    height: auto;
+}
+.col-2 {
+    width: 50%;
+    background-color: violet;
+    padding: 1px;
+}
+.col-3 {
+    width: 24.9%;
+}
+.col-4 {
+    width: 24.9%;
+}
+[class*="col-"] {
+    /* margin-left: 10px;
+    margin-right: 10px; */
+}
+/* Chi tiết */
+/* body {
+    background-color: pink;
+} */
+/* Header */
+.header .container {
+    padding: 10rem 0;
+    opacity: 1;
+    color: rgb(255, 255, 255);
+}
+.header {
+    /* margin-bottom: 2rem; */
+    background-image: url(http://launchkit.mediumra.re/img/hero10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+    height: 330px;
+}
+.button-header button:hover{
+    background-color: #6DC77A;
+}
+.button-main button:hover {
+    background-color: black;
+    color: white;
+}
+/* .button-box button:hover .button-try{
+    background-color: #2e8d3c;
+} */
+.button-box {
+    padding: 15px;
+}
+.button-try {
+    background-color: #6DC77A;
+    color: white;
+    border: 0px solid white;
+    border-radius: 25px;
+    font-size: 21px;
+    width: 150px;
+    padding: 10px;
+}
+.button-purschase {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 25px;
+    font-size: 21px;
+    width: 300px;
+    padding: 10px;
+    margin-left: 25px;
+}
+/* Main */
+.list-post {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.list-post img {
+    width: 70%;
+    margin-right: 5%;
+    
+    box-shadow: 2px 5px rgba(0, 0, 0, 0.26);
+    position: relative;
+    margin: 5% 10%;
+} 
+.list-post .desc {
+    margin-top: 20%;
+    margin-left: -10%;
+}
+.row .col-1:hover {
+    background-color: white;
+}
+.button-view {
+    background-color: transparent;
+    border: 2px solid rgb(32, 32, 32);
+    border-radius: 4px;
+    width: 110px;
+    height: 33px;
+    margin-top: 15px;
+}
+.button-build {
+    background-color: transparent;
+    border: 2px solid rgb(23, 32, 32);
+    border-radius: 4px;
+    width: 80px;
+    height: 33px;
+}
+/* Footer */
+.footer-img img{
+    /* margin: 50px 500px ; */
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 300px; 
+    height: 100%;
+    /* background-color: violet; */
+}
